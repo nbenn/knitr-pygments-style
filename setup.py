@@ -1,17 +1,17 @@
 """ 
-A UA style for Pygments
+A knitr style for Pygments
 """ 
 from setuptools import setup 
 
 setup( 
-    name         = 'ua', 
-    version      = '1.1', 
+    name         = 'knitr', 
+    version      = '1.2', 
     description  = __doc__, 
-    author       = "Pieter Belmans", 
+    author       = "Nicolas Bennett", 
     install_requires = ['pygments'],
-    packages     = ['ua'], 
+    packages     = ['knitr'], 
     entry_points = '''
     [pygments.styles]
-    ua = ua:UAStyle
+    knitr = knitr:KnitrStyle
     '''
 ) 
